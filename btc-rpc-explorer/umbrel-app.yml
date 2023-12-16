@@ -39,12 +39,12 @@ repo: https://github.com/janoside/btc-rpc-explorer
 support: https://github.com/janoside/btc-rpc-explorer/discussions
 port: 3002
 proxied: true
-proxied_hostname: bitcoin.virus.org
+proxied_hostname: btc-explorer.virus.org
 gallery:
   - 1.jpg
   - 2.jpg
   - 3.jpg
-path: "/btc-explorer"
+path: ""
 defaultUsername: ""
 defaultPassword: ""
 submitter: Umbrel
