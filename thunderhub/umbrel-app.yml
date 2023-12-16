@@ -20,6 +20,8 @@ dependencies:
 repo: https://github.com/apotdevin/thunderhub
 support: https://t.me/thunderhub
 port: 3000
+proxied: true
+proxied_hostname: thunderhub.virus.org
 gallery:
   - 1.jpg
   - 2.jpg

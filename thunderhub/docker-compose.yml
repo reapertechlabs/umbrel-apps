@@ -12,6 +12,7 @@ services:
     # user: "1000:1000"
     restart: on-failure
     stop_grace_period: 1m
+    hostname: thunderhub_web_1
     volumes:
       - ${APP_LIGHTNING_NODE_DATA_DIR}:/lnd:ro
       - ${APP_DATA_DIR}/data:/data

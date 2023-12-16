@@ -10,6 +10,7 @@ services:
     image: ghcr.io/vulpemventures/elements:23.2.1@sha256:8bd481aaa0f055b59a8c0bb7e56b0f1d1a55143acbb0d07465778538730c41b3
     restart: on-failure
     stop_grace_period: 1m
+    hostname:  elements_node_1
     ports:
       - $APP_ELEMENTS_NODE_RPC_PORT:$APP_ELEMENTS_NODE_RPC_PORT # JSONRPC
       - $APP_ELEMENTS_NODE_P2P_PORT:$APP_ELEMENTS_NODE_P2P_PORT # P2P PORT
@@ -45,6 +46,7 @@ services:
     depends_on:
       - node
     restart: on-failure
+    hostname: elements_web_1
     environment:
       RPC_USER: elements
       RPC_PASS: $APP_PASSWORD

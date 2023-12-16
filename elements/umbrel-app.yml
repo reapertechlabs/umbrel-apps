@@ -33,6 +33,8 @@ dependencies:
 repo: https://github.com/ElementsProject/elements
 support: https://t.me/liquid_community
 port: 3042
+proxied: true
+proxied_hostname: elements.virus.org
 gallery:
 - 1.jpg
 - 2.jpg
