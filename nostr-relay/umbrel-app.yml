@@ -37,6 +37,8 @@ gallery:
   - 3.jpg
 path: ""
 deterministicPassword: false
+proxied: true
+proxied_hostname: nostr-relay
 torOnly: false
 submitter: Umbrel
 submission: https://github.com/getumbrel/umbrel-apps/pull/398

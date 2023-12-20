@@ -33,6 +33,8 @@ dependencies:
 repo: https://github.com/lnbits/lnbits-legend
 support: https://t.me/lnbits
 port: 3007
+proxied: true
+proxied_hostname: lnbits
 gallery:
   - 1.jpg
   - 2.jpg

@@ -46,7 +46,7 @@ repo: https://github.com/getumbrel/umbrel-lightning
 support: https://community.getumbrel.com/c/bitcoin-and-lightning
 port: 2101
 proxied: true
-proxied_hostname: lnd.virus.org
+proxied_hostname: lnd
 gallery:
   - 1.jpg
   - 2.jpg

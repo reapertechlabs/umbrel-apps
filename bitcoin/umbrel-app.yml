@@ -34,7 +34,7 @@ repo: https://github.com/getumbrel/umbrel-bitcoin
 support: https://community.getumbrel.com/c/bitcoin-and-lightning
 port: 2100
 proxied: true
-proxied_hostname: bitcoin.virus.org
+proxied_hostname: bitcoin
 gallery:
   - 1.jpg
   - 2.jpg

@@ -23,7 +23,7 @@ repo: https://github.com/getumbrel/umbrel-electrs
 support: https://community.getumbrel.com/c/bitcoin-and-lightning
 port: 2102
 proxied: true
-proxied_hostname: electrs.virus.org
+proxied_hostname: electrs
 gallery:
   - 1.jpg
   - 2.jpg

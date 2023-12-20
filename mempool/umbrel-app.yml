@@ -22,6 +22,8 @@ dependencies:
 repo: https://github.com/mempool/mempool
 support: https://mempool.support
 port: 3006
+proxied: true
+proxied_hostname: mempool
 gallery:
   - 1.jpg
   - 2.jpg

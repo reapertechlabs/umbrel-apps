@@ -93,7 +93,7 @@ repo: https://git.v0l.io/Kieran/snort
 support: https://t.me/snort_social
 port: 52027
 proxied: true
-proxied_hostname: snort.virus.org
+proxied_hostname: snort
 gallery:
   - 1.jpg
   - 2.jpg
